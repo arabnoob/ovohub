@@ -18,8 +18,11 @@ Showcase:
 ### Booting Up the Library
 
 ```lua
+
 local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+
 ```
+
 
 
 
@@ -28,8 +31,11 @@ local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/bl
 ### Making the Library's Title
 
 ```lua
+
 local win = DiscordLib:Window("discord library")
+
 ```
+
 
 
 
@@ -38,8 +44,11 @@ local win = DiscordLib:Window("discord library")
 ### Creating a Server
 
 ```lua
+
 local serverid = win:Server("Preview", "https://www.roblox.com/library/4689592025/White-Roblox-Icon")
+
 ```
+
 
 
 
@@ -48,8 +57,11 @@ local serverid = win:Server("Preview", "https://www.roblox.com/library/468959202
 ### Creating a Channel
 
 ```lua
+
 local channelid = serverid:Channel("testing")
+
 ```
+
 
 
 
@@ -58,6 +70,7 @@ local channelid = serverid:Channel("testing")
 ### Creating a Button
 
 ```lua
+
 channelid:Button(
     "Test",
     function()
@@ -65,9 +78,16 @@ channelid:Button(
   end
 )
 
+```
 
 
 
 
+
+### Creating a Separator
+
+```lua
+
+channelid:Separator()
 
 ```
