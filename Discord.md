@@ -91,3 +91,35 @@ channelid:Button(
 channelid:Separator()
 
 ```
+
+### Creating a Toggle
+
+```lua
+channelid:Toggle(
+    "Test",
+    false,
+    function(bool)
+        print(bool)
+    end
+)
+```
+
+### Creating a Slider
+
+```lua
+local slider =
+channelid:Slider(
+    "Slide me!",
+    0,
+    1000,
+    400,
+    function(t)
+        print(t)
+    end
+)
+```
+
+### Updating a Slider
+
+```lua
+slider:Change(50)
