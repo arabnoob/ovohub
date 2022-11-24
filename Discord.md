@@ -9,3 +9,5 @@ i will be releasing a lib, who knows? maybe not.
 ```lua
 local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
 ```
+
+https://imgur.com/a/YFHzV7o
