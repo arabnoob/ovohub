@@ -165,7 +165,7 @@ channelid:Colorpicker(
 ### Creating a Textbox
 
 ```lua
-textbs:Textbox(
+channelid:Textbox(
     "Title here",
     "Type here!",
     true,
