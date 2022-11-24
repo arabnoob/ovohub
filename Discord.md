@@ -174,3 +174,21 @@ textbs:Textbox(
     end
 )
 ```
+
+### Creating a Label
+
+```lua
+channelid:Label("Label")
+```
+
+### Creating a Bind
+
+```lua
+channelid:Bind(
+    "bind",
+    Enum.KeyCode.E,
+    function()
+        print("Test")
+    end
+)
+```
