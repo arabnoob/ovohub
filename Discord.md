@@ -1,6 +1,6 @@
 This is NOT Made by me, Credits to the owner.
 
-Credits to Bloodball for Discord UI Script
+Credits to Bloodball for Discord UI Backup
 
 i'm wasting my time for y'all to have a friendly documentation.
 
