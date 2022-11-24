@@ -5,7 +5,7 @@ i'm wasting my time for y'all to have a friendly documentation.
 i will be releasing a lib, who knows? maybe not.
 
 Showcase:
-![](Showcases/videoplayback.mp4)
+![](Showcases/Screenshot_20221124-165259_CapCut.jpg)
 
 ### Booting Up the Library
 
