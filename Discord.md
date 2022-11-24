@@ -149,3 +149,28 @@ drop:Clear()
 ```lua
 drop:Add("Option")
 ```
+
+### Creating a Color Picker
+
+```lua
+channelid:Colorpicker(
+    "Color",
+    Color3.fromRGB(255, 1, 1),
+    function(t)
+        print(t)
+    end
+)
+```
+
+### Creating a Textbox
+
+```lua
+textbs:Textbox(
+    "Title here",
+    "Type here!",
+    true,
+    function(t)
+        print(t)
+    end
+)
+```
