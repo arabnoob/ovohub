@@ -6,25 +6,68 @@ i'm wasting my time for y'all to have a friendly documentation.
 
 i will be releasing a lib, who knows? maybe not.
 
+
+
 Showcase:
 ![](Showcases/Screenshot_20221124-165259_CapCut.jpg)
+
+
+
+
 
 ### Booting Up the Library
 
 ```lua
 local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
 ```
-Required for the GUI/Library to work.
+
+
+
+
 
 ### Making the Library's Title
 
 ```lua
 local win = DiscordLib:Window("discord library")
 ```
-Setting Up a Title for the GUI/Library.
 
-### Creating a Server/Tab
+
+
+
+
+### Creating a Server
 
 ```lua
-local serv = win:Server("Preview", "https://www.roblox.com/library/4689592025/White-Roblox-Icon")
+local serverid = win:Server("Preview", "https://www.roblox.com/library/4689592025/White-Roblox-Icon")
+```
+
+
+
+
+
+### Creating a Channel
+
+```lua
+local channelid = serverid:Channel("testing")
+```
+
+
+
+
+
+### Creating a Button
+
+```lua
+channelid:Button(
+    "Test",
+    function()
+    DiscordLib:Notification("Notification Title", "Description", "button text")
+  end
+)
+
+
+
+
+
+
 ```
