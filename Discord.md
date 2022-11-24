@@ -123,3 +123,29 @@ channelid:Slider(
 
 ```lua
 slider:Change(50)
+```
+
+### Creating a Dropdown
+
+```lua
+local drop =
+    channelid:Dropdown(
+    "Pick me!",
+    {"Option 1", "Option 2", "Option 3", "Option 4", "Option 5"},
+    function(bool)
+        print(bool)
+    end
+)
+```
+
+### Clear Dropdowns
+
+```lua
+drop:Clear()
+```
+
+### Add Dropdown Options
+
+```lua
+drop:Add("Option")
+```
