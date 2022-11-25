@@ -7,6 +7,16 @@ i'm wasting my time for y'all to have a friendly documentation.
 i will be releasing a lib, who knows? maybe not.
 
 Features:
+* Discord UI
+* Notifications
+* Buttons
+* Dropdowns
+* Toggles
+* Sliders
+* Labels
+* Binds
+* Textboxes
+* Colorpickers
 
 
 Showcase:
